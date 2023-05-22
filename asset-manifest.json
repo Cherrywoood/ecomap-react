@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ecomap-react/static/css/main.0355e40c.css",
+    "main.js": "/ecomap-react/static/js/main.120f1819.js",
+    "static/js/787.5397800b.chunk.js": "/ecomap-react/static/js/787.5397800b.chunk.js",
+    "static/media/bumaga.svg": "/ecomap-react/static/media/bumaga.266ea2b38d08d5549e84d5dbc78a5b94.svg",
+    "static/media/opasnoe.svg": "/ecomap-react/static/media/opasnoe.483a7958c977921dc1aaf80d6a042023.svg",
+    "static/media/tekstil.svg": "/ecomap-react/static/media/tekstil.6f2cefba5cbc8416a3c9425868d5f203.svg",
+    "static/media/metall.svg": "/ecomap-react/static/media/metall.69b7619aeadda9eebf3849800cc1611c.svg",
+    "static/media/tehnika.svg": "/ecomap-react/static/media/tehnika.2744e76e4aa9f11876d860516567afb9.svg",
+    "static/media/tetra-pak.svg": "/ecomap-react/static/media/tetra-pak.f1dff3d9a7c02bac0fa3e7ea4076a223.svg",
+    "static/media/drugoe.svg": "/ecomap-react/static/media/drugoe.3941fc2ba72bdff58f157467e64f1c38.svg",
+    "static/media/steklo.svg": "/ecomap-react/static/media/steklo.3941fc2ba72bdff58f157467e64f1c38.svg",
+    "static/media/plastic.svg": "/ecomap-react/static/media/plastic.01ffaf85ade6ee90d005aeba5e7200ee.svg",
+    "static/media/krishki.svg": "/ecomap-react/static/media/krishki.27a8aa426fbcf353ac01a9d560dc9276.svg",
+    "index.html": "/ecomap-react/index.html",
+    "main.0355e40c.css.map": "/ecomap-react/static/css/main.0355e40c.css.map",
+    "main.120f1819.js.map": "/ecomap-react/static/js/main.120f1819.js.map",
+    "787.5397800b.chunk.js.map": "/ecomap-react/static/js/787.5397800b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0355e40c.css",
+    "static/js/main.120f1819.js"
+  ]
+}
