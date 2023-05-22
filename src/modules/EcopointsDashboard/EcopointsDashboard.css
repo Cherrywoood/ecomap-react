@@ -1,0 +1,15 @@
+.dashboard {
+    z-index: 10;
+    box-shadow: 20px 20px 35px rgba(0, 0, 0, 0.1), 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-lists-button {
+    @apply flex items-center cursor-pointer space-x-1.5
+}
+
+.filters-and-list-content {
+    scrollbar-color: rgba(255, 255, 255, 0.30) rgba(255, 255, 255, 0.50);
+    scrollbar-width: thin;
+}
+
+

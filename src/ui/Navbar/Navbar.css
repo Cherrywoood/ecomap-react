@@ -1,0 +1,17 @@
+.navbar {
+    @apply md:translate-y-0 md:static md:w-auto md:top-0 md:block md:mr-16 md:my-5
+}
+
+.navbar.show {
+    z-index: 9999;
+    @apply top-14 translate-y-0
+}
+
+.nav-link {
+    @apply block text-lg py-2 text-center hover:bg-green-200
+    md:text-sm md:p-0.5 md:border-b md:border-transparent md:border-solid md:hover:border-white md:hover:bg-transparent
+}
+
+.active {
+    @apply font-bold text-purple-600 md:border-b md:hover:border-purple-600
+}
