@@ -1,7 +1,7 @@
 import React from 'react';
 import {Marker} from "react-leaflet";
 import L from 'leaflet';
-import icon2 from "../../../../assets/shop.svg"
+import icon2 from "../../../../assets/shop-marker.png"
 
 
 const EcopointMarker = ({position, zoom, children}) => {
