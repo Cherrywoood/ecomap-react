@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecomap-react/static/css/main.f25b46c9.css",
-    "main.js": "/ecomap-react/static/js/main.7e60670d.js",
+    "main.js": "/ecomap-react/static/js/main.f56408cc.js",
     "static/js/787.5397800b.chunk.js": "/ecomap-react/static/js/787.5397800b.chunk.js",
     "static/media/bumaga.svg": "/ecomap-react/static/media/bumaga.266ea2b38d08d5549e84d5dbc78a5b94.svg",
     "static/media/opasnoe.svg": "/ecomap-react/static/media/opasnoe.483a7958c977921dc1aaf80d6a042023.svg",
@@ -15,11 +15,11 @@
     "static/media/krishki.svg": "/ecomap-react/static/media/krishki.27a8aa426fbcf353ac01a9d560dc9276.svg",
     "index.html": "/ecomap-react/index.html",
     "main.f25b46c9.css.map": "/ecomap-react/static/css/main.f25b46c9.css.map",
-    "main.7e60670d.js.map": "/ecomap-react/static/js/main.7e60670d.js.map",
+    "main.f56408cc.js.map": "/ecomap-react/static/js/main.f56408cc.js.map",
     "787.5397800b.chunk.js.map": "/ecomap-react/static/js/787.5397800b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f25b46c9.css",
-    "static/js/main.7e60670d.js"
+    "static/js/main.f56408cc.js"
   ]
 }
