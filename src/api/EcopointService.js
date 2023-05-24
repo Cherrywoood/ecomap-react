@@ -9,18 +9,18 @@ export const ecopointService = {
     },
     getEcopointsInBounds: async (userBounds, ecopointTypes, fractionTypes) => {
         const params = createEcopointsInBoundsParam(userBounds, ecopointTypes, fractionTypes);
-      /*  const response = await axios.get(baseURL, {
-            params: {...params}
-        });*/
+        /*  const response = await axios.get(baseURL, {
+              params: {...params}
+          });*/
 
         return point;
     },
     getEcopointsInBoundsPagination: async (userBounds, ecopointTypes, fractionTypes, page, size) => {
         const params = createEcopointsInBoundsParam(userBounds, ecopointTypes, fractionTypes);
-       /* return await axios.get(`${baseURL}/pagination`, {
-            params: {...params, page, size}
-        });*/
-        return point.filter(p=> p.id <= 10);
+        /* return await axios.get(`${baseURL}/pagination`, {
+             params: {...params, page, size}
+         });*/
+        return point.filter(p => p.id <= 10);
     },
     searchEcopointsByName: async (name) => {
         const response = await axios.get(baseURL, {

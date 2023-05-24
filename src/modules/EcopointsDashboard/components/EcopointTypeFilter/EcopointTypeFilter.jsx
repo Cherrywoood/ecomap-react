@@ -4,7 +4,11 @@ import FilterButton from "./FilterButton/FilterButton";
 import {FilterEcopointTypeContext} from "../../../../context/filtersContext";
 
 const EcopointTypeFilter = ({ecopointTypes}) => {
-    const {selectedTypeFilters, setSelectedTypeFilters, setPrevSelectedTypeFilters} = useContext(FilterEcopointTypeContext);
+    const {
+        selectedTypeFilters,
+        setSelectedTypeFilters,
+        setPrevSelectedTypeFilters
+    } = useContext(FilterEcopointTypeContext);
     const selectFilter = (selectedFilter) => {
         setPrevSelectedTypeFilters(selectedTypeFilters);
         if (!selectedTypeFilters.some(filter => filter.id === selectedFilter.id)) {

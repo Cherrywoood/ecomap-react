@@ -21,14 +21,14 @@ const Map = ({markers, setUserBounds, selectedMarker}) => {
     //const [mapProviders, setMapProviders] = useState([])
     const [currentZoom, setCurrentZoom] = useState(zoom);
 
-   /* useEffect(() => {
-        const fetchMapProviders = async () => {
-            const maps = await MapProviderService.getAll();
-            setMapProviders(maps);
-        };
+    /* useEffect(() => {
+         const fetchMapProviders = async () => {
+             const maps = await MapProviderService.getAll();
+             setMapProviders(maps);
+         };
 
-        fetchMapProviders();
-    }, []);*/
+         fetchMapProviders();
+     }, []);*/
 
 
     const whenMapReady = (map) => {
@@ -107,4 +107,5 @@ export default Map;
                         <BasemapLayer key={map.id} map={map}/>
                     )
                 }
-            </LayersControl>*/}
+            </LayersControl>*/
+}

@@ -3,7 +3,7 @@ import React from 'react';
 const AddPoint = () => {
     return (
         <div>
-            
+
         </div>
     );
 };
