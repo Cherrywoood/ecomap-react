@@ -79,7 +79,8 @@ const Map = ({markers, setUserBounds, selectedMarker}) => {
                       maxZoom={maxZoom} minZoom={minZoom} maxBounds={maxBounds}
                       whenReady={whenMapReady}>
             <TileLayer
-                url='https://api.mapbox.com/styles/v1/cherrywoood/clg89b14i000u01p396wdlbmo/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2hlcnJ5d29vb2QiLCJhIjoiY2xmdjFocTBlMDJ1YjN0cWtudHdka25wdyJ9.UbWiiWtwNZHX7Lwj52xFag'
+                url='https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png'
+                //url='https://api.mapbox.com/styles/v1/cherrywoood/clg89b14i000u01p396wdlbmo/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2hlcnJ5d29vb2QiLCJhIjoiY2xmdjFocTBlMDJ1YjN0cWtudHdka25wdyJ9.UbWiiWtwNZHX7Lwj52xFag'
                 attribution='© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
             />
             <MapEventsHandler/>

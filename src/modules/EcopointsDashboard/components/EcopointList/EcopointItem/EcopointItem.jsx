@@ -30,7 +30,7 @@ const EcopointItem = ({ecopoint, onSelect}) => {
                 </div>
             </div>
             <div className="flex flex-col justify-center space-y-3 pr-3">
-                <div className="flex items-center space-x-3 text-white hover:text-green-100">
+               {/* <div className="flex items-center space-x-3 text-white hover:text-green-100">
                     <svg className="w-8 h-8" viewBox="0 0 30 27" fill="none"
                          xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -38,7 +38,7 @@ const EcopointItem = ({ecopoint, onSelect}) => {
                             fill="currentColor"/>
                     </svg>
                     <span className="flex-1 shrink-0 text-sm/4">Проложить маршрут</span>
-                </div>
+                </div>*/}
                 {
                     ecopoint.site &&
                     <div className="flex items-center space-x-3 text-white hover:text-green-100">
