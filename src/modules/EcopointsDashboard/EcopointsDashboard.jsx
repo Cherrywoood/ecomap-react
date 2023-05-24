@@ -122,7 +122,7 @@ const EcopointsDashboard = ({
 
     return (
         <Sidebar>
-            <div className="dashboard bg-green-600 max-w-md rounded-r-[20px] h-[36rem] flex flex-col py-8">
+            <div className="dashboard bg-green-600 md:max-w-md rounded-r-[20px] h-[36rem] flex flex-col py-8">
                 <div className="mx-7">
                     <span className="inline-block text-2xl leading-7 mb-5 text-white font-semibold">
                     Экологическая карта Красногвардейского района

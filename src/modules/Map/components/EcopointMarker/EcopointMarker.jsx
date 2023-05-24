@@ -1,12 +1,12 @@
 import React from 'react';
 import {Marker} from "react-leaflet";
 import L from 'leaflet';
-import icon2 from "../../../../assets/shop-marker.png"
+import iconImage from "../../../../assets/recycling-marker.png"
 
 
 const EcopointMarker = ({position, zoom, children}) => {
     const icon = L.icon({
-        iconUrl: icon2,
+        iconUrl: iconImage,
         iconSize: [zoom >= 15 ? 72 : 46, zoom >= 15 ? 72 : 46]
     });
 

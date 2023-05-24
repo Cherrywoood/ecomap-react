@@ -1,9 +1,9 @@
 import React from 'react';
 
-const About = () => {
+const Guides = () => {
     return (
         <main className="main"> СТРАНИЦА О НАС </main>
     );
 };
 
-export default About;
+export default Guides;

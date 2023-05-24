@@ -23,23 +23,36 @@ const Main = () => {
     const [scrollFetching, setScrollFetching] = useState(false);
     const [totalCount, setTotalCount] = useState(0)
 
-    const [fetchEcopoints, loadingEcopoints] = useFetch(async (bounds, typeFilters,
+    const [loadingEcopoints, setLoadingEcopoints] = useState(false)
+
+    const [fetchEcopoints] = useFetch(async (bounds, typeFilters,
                                                                fractionFilters, page, size) => {
+        setLoadingEcopoints(true)
+        const timeout = setTimeout(async () => {
             const ecopoints = await ecopointService
                 .getEcopointsInBoundsPagination(bounds, typeFilters, fractionFilters, page, size);
-            setTotalCount(ecopoints.headers['x-total-count'])
-            if (page === 0) {
-                setEcopoints(ecopoints.data);
-            } else
-                setEcopoints(prevState => [...prevState, ...ecopoints.data])
-            setCurrentPage(prevState => prevState + 1)
+            console.log(ecopoints)
+            setEcopoints(ecopoints)
+            /* setTotalCount(ecopoints.headers['x-total-count'])
+             if (page === 0) {
+                 setEcopoints(ecopoints.data);
+             } else
+                 setEcopoints(prevState => [...prevState, ...ecopoints.data])
+             setCurrentPage(prevState => prevState + 1)*/
             setScrollFetching(false);
+            setLoadingEcopoints(false)
+        }, 1200);
         }
+
     )
 
     const fetchMarkers = async (bounds, typeFilters, fractionFilters,) => {
-        const markers = await ecopointService.getEcopointsInBounds(bounds, typeFilters, fractionFilters);
-        setMarkers(markers);
+        const timeout = setTimeout(async () => {
+            console.log('tut')
+            const markers = await ecopointService.getEcopointsInBounds(bounds, typeFilters, fractionFilters);
+            setMarkers(markers);
+        }, 120);
+        console.log('end')
     }
 
     useEffect(() => {

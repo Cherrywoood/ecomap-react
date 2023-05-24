@@ -1,19 +1,17 @@
 import React from 'react';
 import {Route, Routes} from "react-router-dom";
 import Main from "../pages/Main/Main";
-import About from "../pages/About";
-import EcoEvents from "../pages/EcoEvents";
-import EcoProducts from "../pages/EcoProducts";
-import RecyclingPlaces from "../pages/RecyclingPlaces";
+import Guides from "../pages/Guides";
+import AddPoint from "../pages/AddPoint";
+import Contacts from "../pages/Contacts";
 
 const Router = () => {
     return (
         <Routes>
             <Route path='*' element={<Main/>}/>
-            <Route path='/about' element={<About/>}/>
-            <Route path='/events' element={<EcoEvents/>}/>
-            <Route path='/products' element={<EcoProducts/>}/>
-            <Route path='/points' element={<RecyclingPlaces/>}/>
+            <Route path='/guides' element={<Guides/>}/>
+            <Route path='/addPoints' element={<AddPoint/>}/>
+            <Route path='/contacts' element={<Contacts/>}/>
         </Routes>
     )
 };
